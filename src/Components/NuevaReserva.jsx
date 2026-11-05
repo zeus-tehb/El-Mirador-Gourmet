@@ -99,7 +99,7 @@ export default function NuevaReserva({ cliente }) {
   return (
     <section className="nueva-reserva">
       <header className="nueva-reserva__portada">
-        <img src="/img/reservas-el-mirador.jpg" alt="" aria-hidden="true" />
+        <img src={`${process.env.PUBLIC_URL}/img/reservas-el-mirador.jpg`} alt="" aria-hidden="true" />
         <div>
           <a className="nueva-reserva__volver" href="#inicio">← Volver a home</a>
           <p>EL MIRADOR GOURMET · MIRAFLORES</p>
@@ -258,7 +258,7 @@ export default function NuevaReserva({ cliente }) {
         </form>
 
         <aside className="reserva-resumen">
-          <img src="/img/reservas-el-mirador.jpg" alt="Terraza de El Mirador Gourmet con vista al mar al atardecer" />
+          <img src={`${process.env.PUBLIC_URL}/img/reservas-el-mirador.jpg`} alt="Terraza de El Mirador Gourmet con vista al mar al atardecer" />
           <div className="reserva-resumen__cuerpo">
             <span className="reserva-etiqueta">TU EXPERIENCIA</span>
             <h2>El Mirador Gourmet</h2>

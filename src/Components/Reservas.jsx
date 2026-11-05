@@ -33,7 +33,7 @@ export default function Reservas({ onAbrirReserva }) {
           <div className="reservas__imagen-enlace">
             <img
               className="reservas__imagen"
-              src="/img/reservas-el-mirador.jpg"
+              src={`${process.env.PUBLIC_URL}/img/reservas-el-mirador.jpg`}
               alt="Mesa preparada en la terraza del restaurante, rodeada de jardines y flores"
             />
           </div>

@@ -108,11 +108,11 @@ export default function Login({ onClose, onSubmit, onRegister, clientesRegistrad
         onMouseDown={(event) => event.stopPropagation()}
       >
         <header className="login__barra">
-          <img className="login__marca-mini" src="/img/logo-el-mirador.jpg" alt="El Mirador Gourmet" />
+          <img className="login__marca-mini" src={`${process.env.PUBLIC_URL}/img/logo-el-mirador.jpg`} alt="El Mirador Gourmet" />
           <button className="login__home" type="button" onClick={onClose}>HOME</button>
         </header>
         <div className={`login__contenido${vista === 'registro' ? ' login__contenido--registro' : ' login__contenido--acceso'}`}>
-          <img className="login__emblema" src="/img/logo-el-mirador.jpg" alt="" />
+          <img className="login__emblema" src={`${process.env.PUBLIC_URL}/img/logo-el-mirador.jpg`} alt="" />
           {vista === 'registro' && <p className="login__sobrelinea">EL MIRADOR GOURMET</p>}
           <h2 id="login-titulo">
             {vista === 'login' ? (

@@ -21,7 +21,7 @@ export default function Nosotros() {
       </div>
       <img
         className="nosotros__imagen"
-        src="/img/nosotros-el-mirador.jpg"
+        src={`${process.env.PUBLIC_URL}/img/nosotros-el-mirador.jpg`}
         alt="Chef presenta un plato a los comensales durante una cena en El Mirador Gourmet"
       />
     </section>

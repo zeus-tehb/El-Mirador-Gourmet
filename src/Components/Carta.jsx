@@ -32,7 +32,7 @@ export default function Carta() {
       <section className="franja-vista">
         <img
           className="franja-vista__imagen"
-          src="/img/franja-vista-el-mirador.jpg"
+          src={`${process.env.PUBLIC_URL}/img/franja-vista-el-mirador.jpg`}
           alt=""
           aria-hidden="true"
         />
@@ -46,7 +46,7 @@ export default function Carta() {
           <h2>La carta</h2>
         </div>
         <div className="carta__categorias">
-          <img className="carta__fondo" src="/img/carta-fondo.png" alt="" aria-hidden="true" />
+          <img className="carta__fondo" src={`${process.env.PUBLIC_URL}/img/carta-fondo.png`} alt="" aria-hidden="true" />
           <p className="carta__introduccion">Sabores para disfrutar</p>
           <div className="categorias">
             {categorias.map((categoria) => (
@@ -56,7 +56,7 @@ export default function Carta() {
                 key={categoria.nombre}
                 target="_blank"
                 rel="noreferrer"
-                style={{ backgroundImage: `url(/img/${categoria.imagen})` }}
+                style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/img/${categoria.imagen})` }}
               >
                 <span>{categoria.nombre}</span>
               </a>

@@ -11,7 +11,7 @@ const enlaces = [
 function Logo() {
   return (
     <a className="logo" href="#inicio" aria-label="El Mirador Gourmet, inicio">
-      <img src="/img/logo-el-mirador.jpg" alt="" />
+      <img src={`${process.env.PUBLIC_URL}/img/logo-el-mirador.jpg`} alt="" />
     </a>
   );
 }
