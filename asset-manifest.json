@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/El-Mirador-Gourmet/static/css/main.c36c4d4d.css",
+    "main.js": "/El-Mirador-Gourmet/static/js/main.05b846ea.js",
+    "index.html": "/El-Mirador-Gourmet/index.html",
+    "main.c36c4d4d.css.map": "/El-Mirador-Gourmet/static/css/main.c36c4d4d.css.map",
+    "main.05b846ea.js.map": "/El-Mirador-Gourmet/static/js/main.05b846ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c36c4d4d.css",
+    "static/js/main.05b846ea.js"
+  ]
+}
